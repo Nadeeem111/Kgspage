@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose Your Portal</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: radial-gradient(circle at center, #133a40 0%, #0c1a24 100%);
+      padding: 20px;
+      color: #fff;
+    }
+
+    .card {
+      background: #111827;
+      border-radius: 28px;
+      padding: 36px 24px;
+      width: 100%;
+      max-width: 360px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 0 35px rgba(0, 229, 255, 0.35);
+      border: 1px solid rgba(0, 229, 255, 0.2);
+    }
+
+    .title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 28px;
+      text-align: center;
+      text-shadow: 0 0 12px rgba(0, 229, 255, 0.8);
+      letter-spacing: 0.5px;
+    }
+
+    .button-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      width: 100%;
+    }
+
+    .portal-btn {
+      display: block;
+      width: 100%;
+      padding: 14px 16px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #ffffff;
+      background: linear-gradient(90deg, #a39400 0%, #1ea300 100%);
+      border-radius: 10px;
+      border: 2px solid #00f2fe;
+      box-shadow: 0 0 15px rgba(180, 0, 255, 0.65), 0 0 8px rgba(0, 242, 254, 0.5);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .portal-btn:active {
+      transform: scale(0.97);
+      box-shadow: 0 0 25px rgba(180, 0, 255, 0.9);
+    }
+
+    .footer-text {
+      margin-top: 36px;
+      font-size: 0.95rem;
+      color: #67e8f9;
+      text-align: center;
+      text-shadow: 0 0 6px rgba(103, 232, 249, 0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1 class="title">⚡ Choose Your Portal</h1>
+    
+    <div class="button-list">
+      <!-- Replace '#' with your actual links -->
+      <a href="https://example.com/v1" class="portal-btn">Khan Global Std V1</a>
+      <a href="https://example.com/v2" class="portal-btn">Khan Global Std V2</a>
+      <a href="https://example.com/v3" class="portal-btn">Khan Global Std V3</a>
+      <a href="https://example.com/v4" class="portal-btn">Khan Global Std V4</a>
+    </div>
+  </div>
+
+  <p class="footer-text">Share If You ❤️ by Our Work 😊</p>
+
+</body>
+</html>
